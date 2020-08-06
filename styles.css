@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+
+body {
+    margin-top: 30vh;
+    background-color: lightsteelblue;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: -10vh;
+    }
+
+.calculator {
+    background-color: rgba(138, 53, 53, 0.671);
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 340px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left:0;
+    padding-right:0;
+}
+
+button {
+    margin: 3px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    width: 50px;
+    border-style: solid;
+    border-color: orange;
+    outline:none;
+}
+
+#clear {
+    background-color: red;
+}
+
+#multiply, #divide, #add, #subtract{
+    background-color: blue
+}
+
+
+button:hover{
+    background-color: gray;
+}
+
+#clear:hover{
+    background-color: rgba(255, 255, 0, 0.226)
+}
+#subtract:hover{
+    background-color: rgb(16, 47, 58)
+}
+#add:hover{
+    background-color: rgb(16, 47, 58)
+}
+#multiply:hover{
+    background-color:  rgb(16, 47, 58)
+}
+#divide:hover{
+    background-color:  rgb(16, 47, 58)
+}
+
+#equals{
+    background-color: purple
+}
+
+#equals:hover{
+    background-color: rgba(128, 0, 128, 0.151)
+}
+
+.button-container{
+    margin:0;
+    padding:0;
+}
+
+.display-container{
+    background-color: white;
+    height: 35px;
+    margin-bottom:8px;
+    text-align: right;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    padding-right: 5px;
+}
+
+p{
+    margin-top:10px;
+    font-size:25px;
+    overflow:auto;
+}
